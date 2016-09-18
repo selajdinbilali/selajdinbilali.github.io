@@ -1,0 +1,57 @@
+.wrapper {
+    width: 99%;
+    
+}
+
+
+body{
+    background-image: url('bg-petit.jpg');
+    font-size: 0.5rem;
+}
+img{
+    width: 70px;
+    height: 70px;
+    top:30px;
+}
+
+.gauche{
+    width:100%;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+.droite{
+    width:100%;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.site-header{
+    margin-bottom: 5px;
+}
+
+.pays{
+    font-size: 0.5rem;
+    width: 22%;
+}
+
+.drapeaux{
+    width: 80%;
+}
+h3{
+    text-shadow:none;
+    
+}
+
+.autres{
+    display: inline-block;
+    background-image: url("autres.png");
+    background-size: contain;
+    background-repeat: no;
+    width: 100px;
+    height: 15px;
+    
+}

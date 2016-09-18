@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg.jpg');
+    background-position: center center;
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: 100;*/
+    text-shadow: horizontal-offset vertical-offset blur color;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    line-height: 1.5;
+
+}
+.row{
+    background-color: rgba(255,255,255,0.9);
+    padding: 20px 20px;
+    margin-bottom:10px;
+
+}
+img{
+    border:solid white 5px;
+    position: relative;
+    top:40px;
+}
+
+span p{
+    text-shadow:none;
+}
+
+.gauche h2 {
+    text-align: center;
+}
+.droite h2 {
+    text-align: center;
+}
+
+
+.wrapper{
+
+    width: 60%;
+    margin: auto;
+}
+.row-center{
+    text-align:center;
+}
+.site-header{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.site-header img{
+    border-radius: 125px;
+}
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.gauche{
+    float:left;
+    width:50%;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+.droite{
+    float:right;
+    width:50%;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+ul {
+    text-align:center;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+li{
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(200,200,200,0.4);
+    text-shadow:none;
+/*    font-weight: 200;*/
+}
+
+.projets li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    text-shadow:none;
+}
+
+strong{
+    font-weight:500;
+}
+
+.formation{
+    text-shadow:none;
+}
+
+.drapeaux{
+    height: 60px;
+    margin: auto;
+    width: 60%;
+    text-align:center;
+}
+
+.pays{
+    display: inline-block;
+    width: 19%;
+    height: 100%;
+    font-size: 0.7rem;
+    text-shadow:none;
+    
+}
+
+.pays img{
+    display:inline-block;
+    border-radius: 0;
+    width: auto;
+    max-height: 50%;
+    top:0;
+    margin:auto;
+    
+}
+
+.autres{
+    display: inline-block;
+    background-image: url("autres.png");
+    background-size: contain;
+    background-repeat: no;
+    width: 150px;
+    height: 20px;
+    text-indent: -9999px;
+}
