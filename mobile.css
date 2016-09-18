@@ -6,11 +6,9 @@
 
 body{
     background-image: url('bg-petit.jpg');
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 img{
-    width: 70px;
-    height: 70px;
     top:30px;
 }
 
@@ -26,7 +24,7 @@ img{
 }
 
 .row {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .site-header{
@@ -34,8 +32,16 @@ img{
 }
 
 .pays{
-    font-size: 0.5rem;
+    font-size: 2rem;
     width: 22%;
+    margin-bottom: 15px;
+}
+.pays img{
+    max-height: 70%;
+}
+
+.comp li{
+    font-size: 2rem;
 }
 
 .drapeaux{
@@ -51,7 +57,12 @@ h3{
     background-image: url("autres.png");
     background-size: contain;
     background-repeat: no;
-    width: 100px;
-    height: 15px;
+    width: 400px;
+    height: 60px;
     
 }
+
+h2 {
+    font-size: 2rem;
+}
+

@@ -109,7 +109,6 @@ strong{
 }
 
 .drapeaux{
-    height: 60px;
     margin: auto;
     width: 60%;
     text-align:center;
@@ -118,19 +117,18 @@ strong{
 .pays{
     display: inline-block;
     width: 19%;
-    height: 100%;
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-shadow:none;
+    margin: 5px;
     
 }
 
 .pays img{
     display:inline-block;
     border-radius: 0;
-    width: auto;
-    max-height: 50%;
+    max-width: 100%;
+    height: 50px;
     top:0;
-    margin:auto;
     
 }
 
