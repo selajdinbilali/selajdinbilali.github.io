@@ -54,7 +54,7 @@ h3{
 
 .autres{
     display: inline-block;
-    background-image: url("autres.png");
+    background-image: url("autres-small.png");
     background-size: contain;
     background-repeat: no;
     width: 400px;
