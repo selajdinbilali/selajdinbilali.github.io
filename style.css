@@ -250,6 +250,17 @@ strong{
         height: auto;
         left: 25px;
     }
+    body{
+        line-height: 1.9;
+    }
+
+    a{
+        padding: 5px;
+        background-color: palegoldenrod;
+        border: 1px dashed;
+        margin: 5px 0;
+        font-size: 110%;
+    }
     
 
 }
