@@ -27,12 +27,33 @@ body{
     line-height: 1.5;
 
 }
+
+.portfolio{
+    text-shadow: none;
+    font-size: 105%;
+    background-color: rgba(89,171,227,0.7);
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 26px 20px;
+    width: 200px;
+    font-weight: 600;
+}
+
+.portfolio:hover{
+    text-shadow: none;
+    background-color: rgba(89,171,227,1);
+    color: black;
+    display: block;
+    padding: 26px 20px;
+    width: 200px;
+}
 .row{
     background-color: rgba(255,255,255,0.9);
     padding: 20px 20px;
     margin-bottom:10px;
-
 }
+
 img{
     border:solid white 5px;
     position: relative;
@@ -261,6 +282,28 @@ strong{
         margin: 5px 0;
         font-size: 110%;
     }
+
+    .portfolio{
+        text-shadow: none;
+        background-color: rgba(89,171,227,0.9);
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 25px 20px;
+        width: 100%;
+        height: 80px;
+    }
+    .portfolio:hover{
+        text-shadow: none;
+        background-color: rgba(89,171,227,0.9);
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 25px 20px;
+        width: 100%;
+        height: 80px;
+    }
     
+
 
 }
