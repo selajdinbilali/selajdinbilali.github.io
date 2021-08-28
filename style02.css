@@ -6,143 +6,154 @@
   font-weight: 400;
   line-height: 1.4;
 }
-@media screen and (max-width: 769px) {
-  body {
-    background-color: rgb(243, 238, 229);
-  }
-  .head {
-    background-color: white;
-    border-bottom: 1px solid gainsboro;
-    border-radius: 10px;
-  }
-  .head__topim {
-    background-image: url("./bg-petit-2.jpg");
-    width: 100%;
-    height: calc(100vw / 3);
-    min-height: 186px;
 
-    padding: 2rem;
-  }
-  .head__img {
-    border: 4px solid white;
-    border-radius: 50%;
-    margin-top: -50%;
-  }
+html {
+  width: 100%;
+}
+body {
+  background-color: rgb(243, 238, 229);
+}
+.head {
+  background-color: white;
+  border-bottom: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.head__topim {
+  background-image: url("./bg-petit-2.jpg");
 
-  .head__desc {
-    padding: 1rem 2rem;
-  }
-  .head__title {
-    font-weight: 900;
-  }
+  width: 100%;
+  height: calc(100vw / 3);
+  min-height: 186px;
+  max-height: 255px;
 
-  .head__location {
-    color: gray;
-  }
+  padding: 2rem;
+}
+.head__img {
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-top: -50%;
+}
 
-  .head__list {
-    list-style-type: none;
-  }
+.head__desc {
+  padding: 1rem 2rem;
+}
+.head__title {
+  font-weight: 900;
+}
 
-  .head__subtitle-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .head__subtitle {
-    width: 77%;
-  }
-  .lang a {
-    text-decoration: none;
-  }
+.head__location {
+  color: gray;
+}
 
-  .active {
-    font-weight: 900;
-  }
+.head__list {
+  list-style-type: none;
+}
 
-  .about,
-  .xp,
-  .ed,
-  .skills,
-  footer {
-    padding: 1rem 1.5rem;
-    background-color: #fff;
-    margin-top: 1.5rem;
-    border: 1px solid gainsboro;
-    border-radius: 10px;
-  }
-  .xp__section__title,
-  .ed__section__title,
-  .skills__section__title {
-    margin-bottom: 1rem;
-  }
-  .xp__item,
-  .ed__item {
-    display: flex;
-  }
-  .xp__logo,
-  .ed__logo {
-    width: auto;
-    height: 55px;
-  }
-  .xp__title,
-  .ed__title {
-    font-weight: 900;
-  }
-  .xp__company,
-  .ed__degree {
-    font-size: 1.2rem;
-  }
-  .xp__dates,
-  .xp__location {
-    color: gray;
-  }
-  .xp__desc,
-  .ed__desc {
-    padding-left: 2rem;
-  }
-  .xp__tasks {
-    margin-top: 0.75rem;
-    list-style-type: none;
-    list-style-position: inside;
-    margin-left: 1.1em;
-  }
-  .xp__task:before {
-    content: "-";
-    position: absolute;
-    margin-left: -1.1em;
-  }
+.head__subtitle-container {
+  display: flex;
+  justify-content: space-between;
+}
+.head__subtitle {
+  width: 77%;
+}
+.lang a {
+  text-decoration: none;
+}
 
-  .skills__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-  }
-  .langues__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-  }
+.active {
+  font-weight: 900;
+}
 
-  .skill {
-    width: 102px;
-    text-align: center;
-    background-color: white;
-    color: black;
-    border: 1px solid rgba(0, 0, 128, 0.294);
-    padding: 0.5rem 0.4rem;
-    margin: 0.3rem 0.2rem;
-    border-radius: 2px;
-  }
+.about,
+.xp,
+.ed,
+.skills,
+footer {
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  margin-top: 1.5rem;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.xp__section__title,
+.ed__section__title,
+.skills__section__title {
+  margin-bottom: 1rem;
+}
+.xp__item,
+.ed__item {
+  display: flex;
+}
+.xp__logo,
+.ed__logo {
+  width: auto;
+  height: 55px;
+}
+.xp__title,
+.ed__title {
+  font-weight: 900;
+}
+.xp__company,
+.ed__degree {
+  font-size: 1.2rem;
+}
+.xp__dates,
+.xp__location {
+  color: gray;
+}
+.xp__desc,
+.ed__desc {
+  padding-left: 2rem;
+}
+.xp__tasks {
+  margin-top: 0.75rem;
+  list-style-type: none;
+  list-style-position: inside;
+  margin-left: 1.1em;
+}
+.xp__task:before {
+  content: "-";
+  position: absolute;
+  margin-left: -1.1em;
+}
 
-  .langues {
-    padding: 1rem 1.5rem;
-    background-color: #fff;
-    margin-top: 1.5rem;
-    border: 1px solid gainsboro;
-    border-radius: 10px;
+.skills__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.langues__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.skill {
+  width: 102px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 1px solid rgba(0, 0, 128, 0.294);
+  padding: 0.5rem 0.4rem;
+  margin: 0.3rem 0.2rem;
+  border-radius: 2px;
+}
+
+.langues {
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  margin-top: 1.5rem;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    width: 769px;
+    margin: 0.5rem auto 0.5rem auto;
   }
 }
